@@ -1,0 +1,12 @@
+/*header {
+    text-align: center;
+    background-color: lavender;
+    padding: 20px 0;
+    height: 100px;
+    box-sizing: border-box;
+}*/
+
+:host {
+  width: 20%;
+  background-color: lightgreen;
+}

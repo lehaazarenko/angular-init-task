@@ -1,0 +1,13 @@
+<div class="main">
+  <div *ngIf="contactInfo">
+    <div class="contact-item">Name: {{contactInfo.name}}</div>
+    <div class="contact-item">Email: {{contactInfo.email}}</div>
+    <div class="contact-item">Telephone Number: {{contactInfo.telephoneNumber}}</div>
+  </div>
+  <div *ngIf="homeCaption">
+  	{{homeCaption}}
+  </div>
+  <div *ngIf="notFound">
+    {{notFoundCaption}}
+  </div>
+</div>

@@ -1,0 +1,13 @@
+:host {
+  width: 80%;
+  background-color: lightblue;
+}
+
+.main {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.contact-item {
+  margin-bottom: 10px;
+}
